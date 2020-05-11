@@ -203,6 +203,7 @@ header nav {
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -269,7 +270,6 @@ footer .copyright {
 }
 
    /* Aside */
-
 aside {
   display: flex;
   justify-content: center;
@@ -320,6 +320,11 @@ input[type=button] {
 .features article {
   width: 63%;
   margin: 30px 0;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features .features-items {
@@ -553,12 +558,11 @@ input[type=button] {
   }
 
     /* Hero Area */
-
-  .hero-area {
+  .hero {
     min-height: 600px;
   }
 
-  .hero-area h1 {
+  .hero h1 {
     font-size: 3em;
     line-height: 1;
     margin: 0;
@@ -616,7 +620,6 @@ input[type=button] {
   }
 
     /* Footer */
-
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -701,7 +704,7 @@ input[type=button] {
     padding: 15px 0;
   }
 
-  .hero-area {
+  .hero {
     min-height: 775px;
   }
 
@@ -724,7 +727,7 @@ input[type=button] {
   }
 
   /* Hero */
-  .hero-area h1 {
+  .hero h1 {
     font-size: 3.75em;
     width: 80%;
 }
