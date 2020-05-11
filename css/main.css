@@ -180,6 +180,14 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background: #3a3a3a;
   width: 100%;
@@ -201,10 +209,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
-
-footer {
-  flex-direction: column;
 }
 
 header nav ul li {
@@ -257,7 +261,7 @@ footer .copyright {
   min-height: 500px;
 }
 
-.hero-area h1 {
+.hero h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -327,6 +331,7 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
    /* Reviews */
@@ -649,6 +654,10 @@ input[type=button] {
     padding-top: 20px
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .mission-content p {
     width: 45%;
   }
@@ -757,6 +766,10 @@ input[type=button] {
   }
 
   /** ABOUT PAGE **/
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
   .mission h2,
   .contact-section .content-wrapper h2 {
       width: 95%;
